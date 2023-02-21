@@ -127,14 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="MTMC_Server.cpp" />
+    <ClCompile Include="MTSC_Handler.cpp" />
+    <ClCompile Include="ServerController.cpp" />
     <ClCompile Include="Source.cpp" />
-    <ClCompile Include="STMC_Server.cpp" />
+    <ClCompile Include="STMC_Handler.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MTMC_Server.hpp" />
+    <ClInclude Include="ClientHandler.hpp" />
+    <ClInclude Include="MTSC_Handler.hpp" />
+    <ClInclude Include="ServerController.hpp" />
     <ClInclude Include="Source.hpp" />
-    <ClInclude Include="STMC_Server.hpp" />
+    <ClInclude Include="STMC_Handler.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

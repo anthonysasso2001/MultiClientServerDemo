@@ -18,21 +18,30 @@
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="STMC_Server.cpp">
+    <ClCompile Include="STMC_Handler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MTMC_Server.cpp">
+    <ClCompile Include="MTSC_Handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="STMC_Server.hpp">
+    <ClInclude Include="STMC_Handler.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MTMC_Server.hpp">
+    <ClInclude Include="MTSC_Handler.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerController.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientHandler.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
